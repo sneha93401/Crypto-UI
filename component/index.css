@@ -1,0 +1,644 @@
+.navbar_main {
+    align-self: stretch;
+    background-color: var(--color-blueviolet-100);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 24px 65px var(--padding-2xl) 162px;
+    box-sizing: border-box;
+    top: 0;
+    z-index: 99;
+    position: sticky;
+    max-width: 100%;
+    gap: var(--gap-xl);
+    text-align: left;
+    font-size: var(--font-size-base);
+    color: var(--color-white);
+    font-family: var(--font-source-sans-pro);
+  }
+  
+  .bitcoin-logo-1-icon {
+    height: 26.3px;
+    width: 40px;
+    position: relative;
+    object-fit: cover;
+    z-index: 1;
+  }
+  .cryptocoin {
+    position: relative;
+    display: inline-block;
+    min-width: 76px;
+    z-index: 1;
+  }
+  .bitcoin-logo-1-parent,
+  .cryptocoin-wrapper,
+  .navbar {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .cryptocoin-wrapper {
+    flex-direction: column;
+    padding: var(--padding-10xs) 0 0;
+  }
+  .bitcoin-logo-1-parent,
+  .navbar {
+    flex-direction: row;
+  }
+  .navbar {
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 var(--padding-3xs) 3.7px 0;
+  }
+  .home {
+    min-width: 41px;
+  }
+  .buy-sell,
+  .contact,
+  .home,
+  .news {
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+  }
+  .buy-sell {
+    min-width: 67px;
+    white-space: nowrap;
+  }
+  .contact,
+  .news {
+    min-width: 53px;
+  }
+  .news {
+    min-width: 37px;
+  }
+  .nav_list,
+  .home-parent {
+    display: flex;
+    align-items: flex-start;
+  }
+  .home-parent {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+  }
+  .nav_list {
+    width: 363px;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 var(--padding-6xs);
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .register-now {
+    position: relative;
+    display: inline-block;
+    min-width: 103px;
+    white-space: nowrap;
+    z-index: 1;
+  }
+  .oops-error-message {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-6xs) 0 0;
+  }
+  
+  .sign-in {
+    width: 54px;
+    position: relative;
+    font-size: var(--font-size-base);
+    display: inline-block;
+    font-family: var(--font-source-sans-pro);
+    color: var(--color-blueviolet-100);
+    text-align: center;
+    min-width: 54px;
+    z-index: 2;
+  }
+  .sign_btn,
+  .registration-form {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .sign_btn {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-6xs) 12px;
+    background-color: var(--color-white);
+    border-radius: var(--br-xl);
+    white-space: nowrap;
+    z-index: 1;
+  }
+  .sign_btn:hover {
+    background-color: #e6e6e6;
+  }
+  .registration-form {
+    gap: 35px;
+  }
+  
+/* footer css    */
+
+.ready-to-get {
+  margin: 0 !important;
+  position: absolute;
+  bottom: 574px;
+  left: 341px;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  z-index: 2;
+}
+.wrapper-rectangle-17-child {
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 10px;
+  transform: scale(1.422);
+}
+.wrapper-rectangle-17 {
+  height: 237px;
+  width: 1109px;
+  position: absolute;
+  margin: 0 !important;
+  top: -125px;
+  right: -403px;
+  border-radius: var(--br-xl);
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.create-an-account {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 300;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 2;
+}
+.home-crypto-coin-logo {
+  width: 597px;
+  margin: 0 !important;
+  position: absolute;
+  top: 1444px;
+  left: 333px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+  text-align: center;
+}
+
+.register-now-wrapper {
+  cursor: pointer;
+  border: 0;
+  padding: 15.5px 27.5px;
+  background-color: var(--color-blueviolet-100);
+  position: absolute;
+  top: 83.8px;
+  left: 1056px;
+  border-radius: var(--br-xl);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  white-space: nowrap;
+  z-index: 2;
+}
+.services,
+.we-help-you {
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.we-help-you {
+  width: 189px;
+  font-weight: 500;
+  flex-shrink: 0;
+}
+.services {
+  min-width: 67px;
+}
+.services-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-smi);
+  text-align: left;
+}
+.buy-bitcoin {
+  flex: 1;
+  position: relative;
+  font-weight: 300;
+  z-index: 1;
+}
+.buy-bitcoin-wrapper {
+  width: 107px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-10xs);
+  box-sizing: border-box;
+}
+.buy-ethereum {
+  flex: 1;
+  position: relative;
+  font-weight: 300;
+  display: inline-block;
+  min-width: 107px;
+  z-index: 1;
+}
+.buy-ethereum-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-smi) var(--padding-10xs) var(--padding-3xs);
+}
+.sell-bitcoins {
+  flex: 1;
+  position: relative;
+  font-weight: 300;
+  z-index: 1;
+}
+.sell-bitcoins-wrapper {
+  width: 113px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs) var(--padding-10xs);
+  box-sizing: border-box;
+}
+.bitcoin-trading {
+  flex: 1;
+  position: relative;
+  font-weight: 300;
+  display: inline-block;
+  min-width: 117px;
+  z-index: 1;
+}
+.bitcoin-trading-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-9xs) var(--padding-10xs) var(--padding-4xs);
+}
+.margin-trading {
+  flex: 1;
+  position: relative;
+  font-weight: 300;
+  z-index: 1;
+}
+.frame-parent9,
+.margin-trading-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.margin-trading-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-10xs);
+}
+.frame-parent9 {
+  width: 130px;
+  flex-direction: column;
+  gap: var(--gap-6xs);
+  min-width: 130px;
+}
+.information {
+  position: relative;
+  display: inline-block;
+  min-width: 96px;
+  z-index: 1;
+}
+.information-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xs);
+  text-align: left;
+}
+.payment-options {
+  flex: 1;
+  position: relative;
+  font-weight: 300;
+  z-index: 1;
+}
+.payment-options-wrapper {
+  width: 140px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 5px var(--padding-10xs);
+  box-sizing: border-box;
+}
+.fee-schedule {
+  flex: 1;
+  position: relative;
+  font-weight: 300;
+  z-index: 1;
+}
+.fee-schedule-wrapper {
+  width: 115px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-9xs) var(--padding-10xs);
+  box-sizing: border-box;
+}
+.getting-started {
+  flex: 1;
+  position: relative;
+  font-weight: 300;
+  display: inline-block;
+  min-width: 116px;
+  z-index: 1;
+}
+.getting-started-wrapper {
+  width: 130px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-6xs) var(--padding-10xs);
+  box-sizing: border-box;
+}
+.identify-verification-guide {
+  flex: 1;
+  position: relative;
+  font-weight: 300;
+  z-index: 1;
+}
+.identify-verification-guide-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-10xs) var(--padding-6xs);
+}
+.card-verification-guide {
+  width: 184px;
+  position: relative;
+  font-weight: 300;
+  display: inline-block;
+  z-index: 1;
+}
+.frame-parent10,
+.frame-parent8 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-parent10 {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-6xs);
+  min-width: 129px;
+}
+.frame-parent8 {
+  width: 368px;
+  flex-direction: row;
+  gap: 39px;
+  min-width: 368px;
+  max-width: 100%;
+}
+.get-in-touch {
+  position: relative;
+  display: inline-block;
+  min-width: 96px;
+  z-index: 1;
+}
+.birmingham-al-35243,
+.summit-boulevard {
+  margin: 0;
+}
+.summit-boulevard-birmingham-a-container {
+  position: relative;
+  font-weight: 300;
+  z-index: 1;
+}
+.map-link {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 37px var(--padding-mini) 44px;
+}
+.telephone-123 {
+  align-self: stretch;
+  position: relative;
+  font-weight: 300;
+  z-index: 1;
+}
+.infositenamecom1 {
+  text-decoration: underline;
+}
+.infositenamecom {
+  color: inherit;
+}
+.wwwexamplecom1 {
+  text-decoration: underline;
+}
+.wwwexamplecom {
+  color: inherit;
+}
+.email-infositenamecomweb-container {
+  align-self: stretch;
+  height: 69px;
+  position: relative;
+  font-weight: 300;
+  display: inline-block;
+  z-index: 1;
+}
+.info-box {
+  width: 206px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 19px;
+}
+.email-label,
+.get-in-touch-parent,
+.info-box {
+  display: flex;
+  align-items: flex-start;
+}
+.email-label {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.get-in-touch-parent {
+  width: 250px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 15px;
+  min-width: 250px;
+  text-align: left;
+}
+.frame-parent7,
+.frame-wrapper1 {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frame-parent7 {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.frame-wrapper1 {
+  width: 714px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: var(--font-source-sans-pro);
+}
+.we-help-you-find-your-dream-pl-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.hero-background-color1 {
+  position: absolute;
+  top: 277.51px;
+  left: 0;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-blueviolet-100);
+  box-shadow: 0 20px 100px #5d46e8;
+  width: 1774px;
+  height: 1071px;
+  transform: rotate(-9deg);
+  transform-origin: 0 0;
+}
+.location-1-icon,
+.phone-call-1-icon {
+  position: absolute;
+  top: 360.8px;
+  left: 1408px;
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  z-index: 1;
+}
+.phone-call-1-icon {
+  top: 435.8px;
+  left: 1412px;
+}
+.frame-child3,
+.frame-child4,
+.group-icon {
+  position: absolute;
+  top: 388.8px;
+  left: 587px;
+  width: 48px;
+  height: 48px;
+  z-index: 1;
+}
+.frame-child3,
+.frame-child4 {
+  left: 659px;
+}
+.frame-child4 {
+  left: 731px;
+}
+.hero-background-color-parent {
+  width: 1919.7px;
+  height: 1335.3px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -659.5px;
+  left: -342px;
+}
+.copyright-2018 {
+  position: relative;
+  font-weight: 300;
+  font-family: var(--font-source-sans-pro);
+  z-index: 1;
+}
+.frame-parent6 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 310.8px 121px 50px 246px;
+  box-sizing: border-box;
+  gap: var(--gap-21xl);
+  max-width: 100%;
+  height: 100%;
+}
+.create-form {
+  align-self: stretch;
+  height: 675.8px;
+  position: relative;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}
+.desktop-5-child {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  margin: 0 !important;
+  top: 283.14px;
+  right: -243px;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-blueviolet-100);
+  box-shadow: 0 20px 100px #5d46e8;
+  transform: rotate(-45.1deg);
+  transform-origin: 0 0;
+  z-index: 3;
+}
+.desktop-5 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 100px;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-9xl);
+  color: var(--color-black);
+  font-family: var(--font-source-sans-pro);
+}

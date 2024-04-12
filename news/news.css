@@ -1,0 +1,558 @@
+.desktop-6-child,
+.desktop-6-item {
+  position: absolute;
+  background-color: var(--color-blueviolet);
+}
+.desktop-6-child {
+  top: 358.2px;
+  left: -399px;
+  border-radius: var(--br-31xl);
+  box-shadow: 0 20px 100px #5d46e8;
+  width: 400px;
+  height: 400px;
+  transform: rotate(-45.1deg);
+  transform-origin: 0 0;
+}
+.desktop-6-item {
+  font-size: 2.23vw;
+  top: 239px;
+  left: 520px;
+  border-radius: var(--br-xl);
+  width: 285px;
+  height: 45px;
+}
+
+.our-latest-news {
+  position: absolute;
+  color: var(--color-black);
+  text-align: left;
+}
+.our-latest-news {
+  top: 349px;
+  left: calc(50% - 141px);
+  font-size: var(--font-size-16xl);
+  font-weight: 600;
+}
+.home,
+.news1 {
+  top: 231px;
+  left: calc(50% - 45px);
+  display: inline-block;
+  width: 39px;
+  height: 18px;
+}
+.news1 {
+  left: calc(50% + 9px);
+  color: var(--color-gray);
+  width: 36px;
+}
+.frame-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-blueviolet);
+  width: 1440px;
+  height: 79px;
+}
+.buy-sell {
+  position: relative;
+}
+.home-parent {
+  position: absolute;
+  top: 31px;
+  left: 542px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 55px;
+}
+.home-parent a{
+  text-decoration: none;
+  color: white;
+}
+.cryptocoin,
+.frame-item,
+.register-now {
+  position: absolute;
+  top: 31px;
+  left: 202px;
+}
+.frame-item,
+.register-now {
+  left: 1050px;
+}
+.frame-item {
+  height: 43.04%;
+  width: 5.42%;
+  top: 30.38%;
+  right: 10.51%;
+  bottom: 26.58%;
+  left: 90.07%;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+}
+.sign-in {
+  position: absolute;
+  top: 39.24%;
+  left: 90.9%;
+  color: var(--color-blueviolet);
+  text-align: center;
+}
+.bitcoin-logo-1-icon {
+  position: absolute;
+  top: 28px;
+  left: 162px;
+  width: 40px;
+  height: 26.3px;
+  object-fit: cover;
+}
+.rectangle-parent {
+  position: fixed;
+  z-index: 13;
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 79px;
+  text-align: left;
+  font-size: var(--font-size-base);
+}
+.hero-background-color {
+  position: absolute;
+  top: 1465.7px;
+  left: -342px;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-blueviolet);
+  box-shadow: 0 20px 100px #5d46e8;
+  width: 1774px;
+  height: 1071px;
+  transform: rotate(-9deg);
+  transform-origin: 0 0;
+}
+.location-1-icon {
+  position: absolute;
+  top: 1549px;
+  left: 1066px;
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+}
+.rectangle-icon,
+.register-now-wrapper {
+  position: absolute;
+  top: 1180px;
+  left: 224px;
+  border-radius: var(--br-xl);
+  width: 1109px;
+  height: 237px;
+}
+.register-now-wrapper {
+  top: 1272px;
+  left: 1056px;
+  background-color: var(--color-blueviolet);
+  width: 154px;
+  height: 54px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 43px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-lg);
+}
+.create-an-account,
+.ready-to-get {
+  position: absolute;
+  font-size: var(--font-size-9xl);
+  color: var(--color-black);
+}
+.ready-to-get {
+  top: 1255px;
+  left: calc(50% - 379px);
+  text-align: left;
+}
+.create-an-account {
+  top: 1305px;
+  left: calc(50% - 387px);
+  font-weight: 300;
+  display: inline-block;
+  width: 597px;
+}
+.bitcoin-trading,
+.buy-bitcoin,
+.buy-ethereum,
+.margin-trading,
+.sell-bitcoins {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-weight: 300;
+  display: inline-block;
+  width: 107px;
+}
+.bitcoin-trading,
+.buy-ethereum,
+.margin-trading,
+.sell-bitcoins {
+  top: 33px;
+  left: 10px;
+}
+.bitcoin-trading,
+.margin-trading,
+.sell-bitcoins {
+  top: 66px;
+  left: 3px;
+}
+.bitcoin-trading,
+.margin-trading {
+  top: 99px;
+  left: 9px;
+  width: 117px;
+}
+.margin-trading {
+  top: 132px;
+  left: 3px;
+  width: 127px;
+}
+.buy-bitcoin-parent {
+  position: absolute;
+  top: 1533px;
+  left: 605px;
+  width: 116px;
+  height: 167px;
+  font-size: var(--font-size-lg);
+}
+.payment-options {
+  position: absolute;
+  top: 0;
+  left: 5px;
+  font-weight: 300;
+  display: inline-block;
+  width: 130px;
+}
+.summit-boulevard {
+  margin: 0;
+}
+.summit-boulevard-birmingham-a-container,
+.telephone-123 {
+  position: absolute;
+  top: 8px;
+  left: 339px;
+  font-weight: 300;
+  text-align: left;
+  display: inline-block;
+  width: 169px;
+}
+.telephone-123 {
+  top: 84px;
+  width: 206px;
+}
+.infositenamecom1 {
+  text-decoration: underline;
+}
+.infositenamecom {
+  color: inherit;
+}
+.email-infositenamecomweb-container,
+.fee-schedule {
+  position: absolute;
+  font-weight: 300;
+  display: inline-block;
+}
+.email-infositenamecomweb-container {
+  top: 149px;
+  left: 339px;
+  text-align: left;
+  width: 206px;
+}
+.fee-schedule {
+  top: 33px;
+  left: 4px;
+  width: 107px;
+}
+.card-verification-guide,
+.getting-started,
+.identify-verification-guide {
+  position: absolute;
+  top: 66px;
+  left: 7px;
+  font-weight: 300;
+  display: inline-block;
+  width: 116px;
+}
+.card-verification-guide,
+.identify-verification-guide {
+  top: 99px;
+  width: 192px;
+}
+.card-verification-guide {
+  top: 132px;
+  left: 0;
+  width: 184px;
+}
+.payment-options-parent {
+  position: absolute;
+  top: 1533px;
+  left: 774px;
+  width: 207px;
+  height: 167px;
+  font-size: var(--font-size-lg);
+}
+.phone-call-1-icon {
+  position: absolute;
+  top: 1624px;
+  left: 1070px;
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+}
+.get-in-touch,
+.information,
+.services {
+  position: absolute;
+  top: 1503px;
+  left: 618px;
+  font-size: var(--font-size-lg);
+  text-align: left;
+}
+.get-in-touch,
+.information {
+  left: 784px;
+}
+.get-in-touch {
+  left: 1069px;
+}
+.we-help-you {
+  width: 189px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+}
+.we-help-you-find-your-dream-pl-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-inner {
+  width: 48px;
+  position: relative;
+  height: 48px;
+}
+.frame-parent,
+.group-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.frame-parent {
+  position: absolute;
+  top: 1499px;
+  left: 245px;
+  flex-direction: column;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  font-family: var(--font-poppins);
+}
+.copyright-2018,
+.sed-ut-perspi {
+  position: absolute;
+  font-weight: 300;
+}
+.copyright-2018 {
+  top: 1791px;
+  left: 246px;
+  font-size: var(--font-size-lg);
+  text-align: left;
+}
+.sed-ut-perspi {
+  top: 415px;
+  left: 473px;
+  color: var(--color-black);
+  display: inline-block;
+  width: 493px;
+  height: 42px;
+}
+.rectangle-div {
+  position: absolute;
+  top: 557px;
+  left: 182px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-blueviolet);
+  width: 342px;
+  height: 337px;
+}
+.lorem-ipsum-dolor,
+.posted-03-dec,
+.working-hard-to {
+  position: absolute;
+  top: 726px;
+  left: 238px;
+  font-weight: 600;
+  display: inline-block;
+  width: 230px;
+}
+.lorem-ipsum-dolor,
+.posted-03-dec {
+  top: 784px;
+  left: 215px;
+  font-weight: 300;
+  width: 276px;
+}
+.posted-03-dec {
+  top: 687px;
+}
+.desktop-6-child1 {
+  position: absolute;
+  top: 854px;
+  left: 313px;
+  border-radius: 50%;
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 80px;
+  height: 80px;
+}
+.unsplashjchty4w4yjo-icon {
+  position: absolute;
+  top: 558px;
+  left: 182px;
+  border-radius: var(--br-xl) var(--br-xl) 0 0;
+  width: 342px;
+  height: 118px;
+  object-fit: cover;
+}
+.desktop-6-child2 {
+  position: absolute;
+  top: 557px;
+  left: 549px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-blueviolet);
+  width: 342px;
+  height: 337px;
+}
+.lorem-ipsum-dolor1,
+.posted-03-dec1,
+.working-hard-to1 {
+  position: absolute;
+  top: 726px;
+  left: 605px;
+  font-weight: 600;
+  display: inline-block;
+  width: 230px;
+}
+.lorem-ipsum-dolor1,
+.posted-03-dec1 {
+  top: 784px;
+  left: 582px;
+  font-weight: 300;
+  width: 276px;
+}
+.posted-03-dec1 {
+  top: 687px;
+}
+.desktop-6-child3 {
+  position: absolute;
+  top: 854px;
+  left: 680px;
+  border-radius: 50%;
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 80px;
+  height: 80px;
+}
+.desktop-6-child4 {
+  position: absolute;
+  top: 557px;
+  left: 916px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-blueviolet);
+  width: 342px;
+  height: 337px;
+}
+.lorem-ipsum-dolor2,
+.posted-03-dec2,
+.working-hard-to2 {
+  position: absolute;
+  top: 726px;
+  left: 972px;
+  font-weight: 600;
+  display: inline-block;
+  width: 230px;
+}
+.lorem-ipsum-dolor2,
+.posted-03-dec2 {
+  top: 784px;
+  left: 949px;
+  font-weight: 300;
+  width: 276px;
+}
+.posted-03-dec2 {
+  top: 687px;
+}
+.desktop-6-child5 {
+  position: absolute;
+  top: 854px;
+  left: 1047px;
+  border-radius: 50%;
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 80px;
+  height: 80px;
+}
+.right-arrow-1-icon,
+.right-arrow-2-icon,
+.right-arrow-3-icon {
+  position: absolute;
+  top: 874px;
+  left: 333px;
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+.right-arrow-2-icon,
+.right-arrow-3-icon {
+  left: 700px;
+}
+.right-arrow-3-icon {
+  left: 1067px;
+}
+.unsplashbr0udtyatqc-icon,
+.unsplashsysustxy8bq-icon {
+  position: absolute;
+  top: 558px;
+  left: 549px;
+  border-radius: var(--br-xl) var(--br-xl) 0 0;
+  width: 342px;
+  height: 118px;
+  object-fit: cover;
+}
+.unsplashsysustxy8bq-icon {
+  left: 916px;
+}
+.desktop-6-child6 {
+  position: absolute;
+  top: 980.2px;
+  left: 1295px;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-blueviolet);
+  box-shadow: 0 20px 100px #5d46e8;
+  width: 400px;
+  height: 400px;
+  transform: rotate(-45.1deg);
+  transform-origin: 0 0;
+}
+.desktop-6 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  height: 1857px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-mini);
+  color: var(--color-white);
+  font-family: var(--font-source-sans-pro);
+}

@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-source-sans-pro: "Source Sans Pro";
+  --font-poppins: Poppins;
+
+  /* font sizes */
+  --font-size-mini: 15px;
+  --font-size-lg: 18px;
+  --font-size-9xl: 28px;
+  --font-size-base: 16px;
+  --font-size-16xl: 35px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-blueviolet: #5d46e8;
+  --color-black: #000;
+  --color-gray: rgba(0, 0, 0, 0.2);
+
+  /* Gaps */
+  --gap-5xl: 24px;
+
+  /* Border radiuses */
+  --br-31xl: 50px;
+  --br-xl: 20px;
+}

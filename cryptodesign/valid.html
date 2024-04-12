@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="valid.css">
+</head>
+
+<body>
+  <div class="main_form">
+    <!-- Sign-In Form -->
+    <div class="form_container" id="signInContainer">
+      <div id="signInForm">
+        <button id="closeBtn" aria-label="Close">&times;</button>
+        <form id="loginForm">
+          <label for="loginEmail">Email:</label>
+          <input type="email" id="signInEmail" required>
+          <p id="signInEmailError" class="error"></p>
+          <label for="loginPassword">Password:</label>
+          <input type="password" id="signInPassword" required>
+          <p id="signInPasswordError" class="error"></p>
+
+          <button type="submit" onclick="validateSignIn()">Sign In</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Sign-Up Form -->
+    
+  </div>
+  <script src="vald.js"></script>
+</body>
+
+</html>
